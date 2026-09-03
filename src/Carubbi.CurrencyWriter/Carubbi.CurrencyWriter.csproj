@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>Carubbi.CurrencyWriter</RootNamespace>
+    <AssemblyName>Carubbi.CurrencyWriter</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Carubbi.CurrencyWriter</PackageId>
+    <Version>2.0.0</Version>
+    <Authors>Raphael Carubbi Neto</Authors>
+    <Description>A multi-language library to write a currency value in full form</Description>
+    <PackageTags>Currency, Writer, full form, multi-language, money</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/rcarubbi/Carubbi.CurrencyWriter.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
